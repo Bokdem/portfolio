@@ -1,0 +1,12 @@
+.experience-block--item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+}
+
+.tags {
+    background-color: aqua;
+    padding: 4px 10px;
+    margin: 12px 12px 0 12px; ;
+    border-radius: 8px;
+}

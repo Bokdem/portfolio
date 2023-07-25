@@ -1,4 +1,16 @@
+import ExperienceBlock from "./ExperienceBlock";
+import data from "../data.js"
+
 export default function RightColumn() {
+    const experienceblocks = data.map( experience => {
+        return (
+            <ExperienceBlock
+                key={experience.id}
+                experience={experience}
+            />
+        )
+    })
+
     return (
         <>
             <main id="content">
@@ -11,7 +23,11 @@ export default function RightColumn() {
                         When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds.
                     </p>
                 </section>
-                <section id="experience" className="experience"></section>
+                <section id="experience" className="experience">
+                    <ul>
+                        {experienceblocks}
+                    </ul>
+                </section>
                 <section id="projects" className="projects"></section>
                 <section id="experiments" className="experiments"></section>
             </main>
