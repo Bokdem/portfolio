@@ -7,10 +7,10 @@ export default function LeftColumn() {
             <p className="main-content">I build accessible, user friendly products and digital experiences for the web.</p>
             <div className="mini-menu">
                 <ul>
-                    <li><a href="#top">About</a></li>
-                    <li><a href="#top">Experience</a></li>
-                    <li><a href="#top">Projects</a></li>
-                    <li><a href="#top">Mini experiments</a></li>
+                    <li><a href="#top"><span className="nav-indicator"></span><span className="nav-text">About</span></a></li>
+                    <li><a href="#top"><span className="nav-indicator"></span><span className="nav-text">Experience</span></a></li>
+                    <li><a href="#top"><span className="nav-indicator"></span><span className="nav-text">Projects</span></a></li>
+                    <li><a href="#top"><span className="nav-indicator"></span><span className="nav-text">Mini experiments</span></a></li>
             </ul></div>
         </div>
         </>

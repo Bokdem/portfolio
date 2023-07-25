@@ -1,8 +1,28 @@
 .left-column {
     position: sticky;
-    background-color: red;
 }
 
-.mini-menu:before {
+.left-column h3 {
+    margin: 1rem 0;
+}
 
+
+/* mini menu */
+.mini-menu {
+    margin-top: 2rem;
+}
+
+.nav-indicator {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 1px;
+    margin: 11px;
+    background-color: #fff;
+    transition: width .3s;
+}
+
+ul li:hover .nav-indicator {
+    width: 50px;
+    transition: width .3s;
 }

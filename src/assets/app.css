@@ -1,18 +1,50 @@
+:root {
+    --main-font-color: rgb(148 163 184/.9);
+    --backgrond-color: #0f172a; 
+}
+
 body{
-    background-color: #0f172a;
-    color: rgb(148, 163, 184);
+    background-color: var(--backgrond-color);
+    color: var(--main-font-color);
 }
 
 .App {
-    padding: 5rem 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 4rem 5rem;
+    line-height: 1.5rem;
 }
-
 
 ul {
     list-style-type: none;
+    padding: 0;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--main-font-color);
 }
 
 
+h1, h2, h3, p {
+    margin: 0;
+}
+
 h1 {
-    
+    font-size: 3rem;
+    line-height: 1;
+    color: rgb(226 232 240/1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: rgb(226 232 240/1);
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(226 232 240/1);
 }
