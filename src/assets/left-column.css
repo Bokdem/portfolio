@@ -1,5 +1,8 @@
 .left-column {
     position: sticky;
+    max-height: calc(100vh - 8rem);
+    top: 0;
+    padding: 4rem 0;
 }
 
 .left-column h3 {
