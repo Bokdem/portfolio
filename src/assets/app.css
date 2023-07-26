@@ -13,10 +13,17 @@ body{
 
 .App {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
-    padding: 0 5rem;
+    padding: 0 2rem;
     line-height: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .App {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 5rem;
+    }
 }
 
 ul {

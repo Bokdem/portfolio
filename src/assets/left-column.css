@@ -1,8 +1,14 @@
 .left-column {
-    position: sticky;
-    max-height: calc(100vh - 8rem);
-    top: 0;
-    padding: 4rem 0;
+    padding-top: 4rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .left-column {
+        position: sticky;
+        top: 0;
+        max-height: calc(100vh - 8rem);
+        padding-top: 4rem 0;
+    }
 }
 
 .left-column h3 {
