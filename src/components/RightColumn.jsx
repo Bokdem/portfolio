@@ -30,6 +30,7 @@ export default function RightColumn() {
                 </section>
                 <section id="projects" className="projects"></section>
                 <section id="experiments" className="experiments"></section>
+                <p>Custom built in React using 'local' data fetching, component based UI, single page routing and more. Design credits go out to Brittany/c/</p>
             </main>
         </>
     )

@@ -11,7 +11,12 @@ export default function LeftColumn() {
                     <li><a href="#top"><span className="nav-indicator"></span><span className="nav-text">Experience</span></a></li>
                     <li><a href="#top"><span className="nav-indicator"></span><span className="nav-text">Projects</span></a></li>
                     <li><a href="#top"><span className="nav-indicator"></span><span className="nav-text">Mini experiments</span></a></li>
-            </ul></div>
+                </ul>
+            </div>
+            <h3>Tech Stack</h3>
+            <p><b>Programming Languages: </b>HTML, CSS, SASS, JavaSCript, Liquid, HubL</p>
+            <p><b>Libraries & Frameworks: </b>React, TailwindCSS, BootStrap</p>
+            <p><b>Tools & Platforms: </b>Git, GitHub, WordPress, Adobe, Affinity</p>
         </div>
         </>
     )
