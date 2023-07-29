@@ -74,21 +74,13 @@
     color: rgb(94 234 212);;
 }
 
-@media only screen and (min-width: 768px) {
-    .experience-block--item {
-        grid-template-columns: 1fr 3fr;
-        gap: 1rem;
-        padding: 1rem 1.5rem;
-    }
-}
-
 .experience-block--date {
     font-size: 0.75rem;
     font-weight: 600;
 }
 
 .experience-block--date img {
-    width: 90%;
+    width: 50%;
     border-radius: 4px;
     margin-top: .25rem;
 }
@@ -123,4 +115,17 @@
 
 .test {
     position: relative;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .experience-block--item {
+        grid-template-columns: 1fr 3fr;
+        gap: 1rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .experience-block--date img {
+        width: 90%;
+    }
 }

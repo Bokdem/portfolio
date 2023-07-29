@@ -21,7 +21,6 @@ function Projects() {
                 </div>
                 <div id="projects" className="projects"></div>
                 <div id="experiments" className="experiments"></div>
-                <p>Custom built in React using 'local' data fetching, component based UI, single page routing and more. Design credits go out to Brittany/c/</p>
             </>
         )
 }

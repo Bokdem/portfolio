@@ -4,14 +4,6 @@
     flex-direction: column;
     padding-top: 4rem;
 }
-@media only screen and (min-width: 768px) {
-    .left-column {
-        position: sticky;
-        top: 0;
-        max-height: calc(100vh - 8rem);
-        padding-top: 4rem 0;
-    }
-}
 
 .left-column h3 {
     margin: 1rem 0;
@@ -43,6 +35,10 @@ ul li:hover .nav-indicator {
     background-color: var(--neon-green);
 }
 
+.header-top {
+    margin-bottom: 2rem;
+}
+
 .header-bottom {
     display: flex;
     gap: 1rem;
@@ -54,4 +50,17 @@ ul li:hover .nav-indicator {
 }
 .header-bottom li:nth-child(3) {
     width: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .left-column {
+        position: sticky;
+        top: 0;
+        max-height: calc(100vh - 8rem);
+        padding-top: 4rem 0;
+    }
+
+    .header-top {
+        margin-bottom: 0;
+    }
 }

@@ -15,7 +15,7 @@ export default function ExperienceBlock(props) {
                 {
                 contentTypeChecker === "" ?
                 <div className="experience-block--date"><img src={`${props.experience.thumbnail}`} /></div> :
-                <div className="experience-block--date">{props.experience.dateMonths}<br />{props.experience.dateYears}</div>
+                <div className="experience-block--date">{props.experience.dateMonths} {props.experience.dateYears}</div>
                 }
 
                 
