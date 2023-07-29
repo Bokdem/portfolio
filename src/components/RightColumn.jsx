@@ -3,6 +3,7 @@ import ScrollSpy from "react-ui-scrollspy";
 import About from "./right-column-elements/About";
 import TechStack from "./right-column-elements/TechStack";
 import Experiences from "./right-column-elements/Experiences";
+import Projects from "./right-column-elements/Projects";
 
 export default function RightColumn() {
     // const experienceblocks = data.map( experience => {
@@ -21,6 +22,7 @@ export default function RightColumn() {
                 <About />
                 <TechStack />
                 <Experiences />
+                <Projects />
                 {/* <div id="experience" className="experience">
                     <h3 className="section-title">Experiences</h3>
                     <ul>
@@ -30,7 +32,8 @@ export default function RightColumn() {
                 <div id="projects" className="projects"></div>
                 <div id="experiments" className="experiments"></div>
                 <p>Custom built in React using 'local' data fetching, component based UI, single page routing and more. Design credits go out to Brittany/c/</p> */}
-                </ScrollSpy>
+                <p>Custom built in React using 'local' data fetching, component based UI, single page routing and more. Design credits go out to Brittany/c/</p>
+            </ScrollSpy>
             </main>
         </>
     )

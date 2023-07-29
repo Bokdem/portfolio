@@ -43,8 +43,15 @@ ul li:hover .nav-indicator {
     background-color: var(--neon-green);
 }
 
-.header-bottom{
+.header-bottom {
     display: flex;
     gap: 1rem;
     margin: 0;
+}
+
+.header-bottom li {
+    width: 30px;
+}
+.header-bottom li:nth-child(3) {
+    width: 24px;
 }

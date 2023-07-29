@@ -1,5 +1,7 @@
 export default function ExperienceBlock(props) {
     const splitTags = props.experience.tags.split(/,/);
+    const contentTypeChecker = props.experience.dateMonths;
+
     const tags = splitTags.map(tag => {
         return (
             <span className="experience-block--tag" key={tag}>{tag}</span>
@@ -9,7 +11,14 @@ export default function ExperienceBlock(props) {
     return (
         <>
             <li className="experience-block--item">
+
+                {
+                contentTypeChecker === "" ?
+                <div className="experience-block--date"><img src={`${props.experience.thumbnail}`} /></div> :
                 <div className="experience-block--date">{props.experience.dateMonths}<br />{props.experience.dateYears}</div>
+                }
+
+                
                 <div className="experience-block--content">
                     <h3>{props.experience.title}</h3>
                     <h4>{props.experience.company}</h4>
