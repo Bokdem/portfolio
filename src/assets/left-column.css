@@ -40,6 +40,7 @@
 ul li:hover .nav-indicator {
     width: 50px;
     transition: width .3s;
+    background-color: var(--neon-green);
 }
 
 .header-bottom{

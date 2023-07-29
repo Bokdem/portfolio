@@ -2,9 +2,40 @@
     padding: 4rem 0;
 }
 
+.title-indicator {
+    display: block;
+    flex-grow: 1;
+    height: 1px;
+    margin-top: 12px;
+    background-color: rgb(255 255 255 / 20%);
+    margin-left: auto;
+}
+
+.title-number {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--neon-green);
+    margin-right: .5rem;
+}
+
+.about, .tech-stack, .experience, .projects, .experiments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .about .section-title {width: 65px;}
+.tech-stack .section-title {width: 100px;} */
+.section-title {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
 .about,
 .tech-stack {
     margin-bottom: 4rem;
+}
+
+.tech-stack--summary {
+    width: 100%;
 }
 
 .tech-stack p {

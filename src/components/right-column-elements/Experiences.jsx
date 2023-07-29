@@ -14,7 +14,7 @@ function Experiences() {
     return (
             <>
                 <div id="experience" className="experience">
-                    <h3 className="section-title">Experiences</h3>
+                <span className="title-number">03</span><h3 className="section-title">Experiences</h3><span className="title-indicator"></span>
                     <ul>
                         {experienceblocks}
                     </ul>
