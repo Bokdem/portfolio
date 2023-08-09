@@ -15,22 +15,17 @@ export default function LeftColumn() {
                         </li>
                         <li>
                             <a  href="#tech-stack">
-                                <span className="nav-indicator" data-to-scrollspy-id="tech-stack"></span><span className="nav-text">Tech stack</span>
+                                <span className="nav-indicator" data-to-scrollspy-id="tech-stack"></span><span className="nav-text">Tech Stack</span>
                             </a>
                         </li>
                         <li>
                             <a href="#experience">
-                                <span className="nav-indicator" data-to-scrollspy-id="experience"></span><span className="nav-text">Experience</span>
+                                <span className="nav-indicator" data-to-scrollspy-id="experience"></span><span className="nav-text">Experiences</span>
                             </a>
                         </li>
                         <li>
                             <a href="#projects">
                                 <span className="nav-indicator" data-to-scrollspy-id="projects"></span><span className="nav-text">Projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#experiments">
-                                <span className="nav-indicator" data-to-scrollspy-id="experiments"></span><span className="nav-text">Mini experiments</span>
                             </a>
                         </li>
                     </ul>

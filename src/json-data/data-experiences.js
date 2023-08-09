@@ -1,29 +1,42 @@
 export default [
     {
         id: 1,
+        dateMonths: "JULY - NOW",
+        dateYears: "2023",
+        title: "Front End Development · React",
+        company: "@Home",
+        description: "Currently I'm working hard to get my FE development skills back on track. I'm getting my hands on many of the aspects which this workfield holds. Think of GitHub, NPM, JavaScript, etc. Lately, I've been working with React and built some small projects, which you find down here at Projects.",
+        tags: "HTML, CSS, Tailwind, JavaScript, React, NPM, GitHub",
+        hrefLink: "https://www.print.com/"
+    },
+    {
+        id: 2,
         dateMonths: "NOV — JULY",
         dateYears: "2022/2023",
         title: "Campaign Engineer · Marketing",
         company: "Print.com",
-        description: "Within the team I had quite a varied inzet van mijn rol. Working in the Marketing team, with each it's own specialty. I would be the technical guy who you can reach out to get things done. We worked in short sprints SCRUM method. My part was to make sure that technical aspect would get done or fixed. And come up with new ideas on how to tockle things. Also provide the team with insight and make it understandable. Make insightful for what future initiatives we may start or look back at data of previous initiatieves/experiments.",
-        tags: "HubSpot, HubL, HTML, CSS, GA4, Tag Manager, WordPress, Looker Studio, Meta Business Manager, Contentful"
+        description: "At this B2B company I was part of the Marketing team, with each it's own specialty. My role as a ‘campaign engineer’ was quite a varied role. We worked in short sprints Scrum method to anticipate quickly and come up with relevant initiatives. My part was to make sure that the technical aspects would get done/fixed.",
+        tags: "HubSpot, HubL, HTML, CSS, GA4, Tag Manager, WordPress, Looker Studio, Meta Business Manager, Contentful",
+        hrefLink: "https://www.print.com/"
     },
     {
-        id: 2,
+        id: 3,
         dateMonths: "JULY — FEB",
         dateYears: "2017/2022",
         title: "Online Manager · E-Commerce",
         company: "Rebellencub.com",
-        description: "Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        tags: "Shopify, Liquid, HTML, CSS, JavaScript, Channable, Klaviyo, Affinity, API's"
+        description: "During my time at this retail startup stepping into the e-commerce world, I took a big role takeing care of all these online aspects were taken care of accordingly to the needs of it's growth. Quickly switching to provide solutions for the business and maybe even more important, the customer's needs.",
+        tags: "Shopify, Liquid, HTML, CSS, JavaScript, Channable, Klaviyo, Affinity, API's",
+        hrefLink: "https://www.rebellenclub.com"
     },
     {
-        id: 3,
+        id: 4,
         dateMonths: "FEB — AUG",
         dateYears: "2015/2016",
         title: "Front End Developer · Eight Media",
         company: "Eight.nl",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        tags: "HTML, CSS, SASS, JavaScript, GitHub"
+        description: "My first FE developer job! After my self grown interests, it was finally time for me to get my hands on some professional projects. This really boosted my overall knowledge in the workfield and I learned a lot of my colleague's. We built landingpages from scratch, together with the designers and BE developers we hopped onto the redesign of an existing webapp, and of course our own project developments.",
+        tags: "HTML, CSS, SASS, JavaScript, GitHub",
+        hrefLink: "https://www.eight.nl/"
     }
 ]

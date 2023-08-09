@@ -4,29 +4,32 @@ export default [
         dateMonths: "",
         dateYears: "",
         thumbnail: "../../images/course-card.png",
-        title: "Campaign Engineer · Marketing",
-        company: "Print.com",
-        description: "Within the team I had quite a varied inzet van mijn rol. Working in the Marketing team, with each it's own specialty. I would be the technical guy who you can reach out to get things done. We worked in short sprints SCRUM method. My part was to make sure that technical aspect would get done or fixed. And come up with new ideas on how to tockle things. Also provide the team with insight and make it understandable. Make insightful for what future initiatives we may start or look back at data of previous initiatieves/experiments.",
-        tags: "HubSpot, HubL, HTML, CSS, GA4, Tag Manager, WordPress, Looker Studio, Meta Business Manager, Contentful"
+        title: "Notes app with Firebase",
+        company: "",
+        description: "With this project I got acquainted with handling the end users input. We used React-mde and showdown to build the interface. During development we used LocalStorage to store the data, after which we switched to connecting it to Firebase. This project was built by following a course I followed to level up my knowledges in React.",
+        tags: "React, React-mde, Showdown, Vite, Firebase, LocalStorage, API",
+        hrefLink: ""
     },
     {
         id: 5,
         dateMonths: "",
         dateYears: "",
         thumbnail: "../../images/course-card.png",
-        title: "Online Manager · E-Commerce",
-        company: "Rebellencub.com",
-        description: "Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        tags: "Shopify, Liquid, HTML, CSS, JavaScript, Channable, Klaviyo, Affinity, API's"
+        title: "Pixabay API Gallery Search",
+        company: "",
+        description: "With this project I got acquainted with fetching an API from a third-party server, mapping through it's returning data, passing the data into the components, using a text input field in React to provide the end user with search results and more. I built this project by following an online course where the narrator mentored me through the material.",
+        tags: "React, API, Axios, Javascript, Debouncing",
+        hrefLink: "https://classy-haupia-b581f8.netlify.app/"
     },
     {
         id: 6,
         dateMonths: "",
         dateYears: "",
         thumbnail: "../../images/course-card.png",
-        title: "Front End Developer · Eight Media",
-        company: "Eight.nl",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        tags: "HTML, CSS, SASS, JavaScript, GitHub"
+        title: "To-Do List",
+        company: "",
+        description: "A very simple to-do webapp, to get my hands om some of the basic principles of React. You can add new to-do's, mark them as done and delete them using LocalStorage. Eventually this quickly evovled into a playground in which I try out some other aspects of React. Such as fetching API's, handling forms, ...",
+        tags: "React, LocalStorage, JavaScript, Forms, API, Project playground",
+        hrefLink: ""
     }
 ]

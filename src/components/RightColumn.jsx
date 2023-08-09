@@ -23,16 +23,7 @@ export default function RightColumn() {
                 <TechStack />
                 <Experiences />
                 <Projects />
-                {/* <div id="experience" className="experience">
-                    <h3 className="section-title">Experiences</h3>
-                    <ul>
-                        {experienceblocks}
-                    </ul>
-                </div>
-                <div id="projects" className="projects"></div>
-                <div id="experiments" className="experiments"></div>
-                <p>Custom built in React using 'local' data fetching, component based UI, single page routing and more. Design credits go out to Brittany/c/</p> */}
-                <p>Custom built in React using 'local' data fetching, component based UI, single page routing and more. Design credits go out to Brittany/c/</p>
+                <p>Make sure to keep an eye out on my GitHub which I will continue to update with more fun projects to level up my React (and overall FE) skills!<br /><em>Design credits go out to Brittany/c/</em></p>
             </ScrollSpy>
             </main>
         </>

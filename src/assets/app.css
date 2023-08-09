@@ -4,6 +4,7 @@
 
 :root {
     --main-font-color: rgb(148 163 184/.9);
+    --title-font-color: rgb(226 232 240/1);
     --backgrond-color: #0f172a;
     --neon-green: #5eead4;
 }
@@ -56,23 +57,23 @@ h1, h2, h3, h4, p {
 h1 {
     font-size: 3rem;
     line-height: 1;
-    color: rgb(226 232 240/1);
+    color: var(--title-font-color);
 }
 
 h2 {
     font-size: 2rem;
-    color: rgb(226 232 240/1);
+    color: var(--title-font-color);
 }
 
 h3 {
     font-size: 1.25rem;
     font-weight: 500;
-    color: rgb(226 232 240/1);
+    color: var(--title-font-color);
     margin-bottom: .5rem;
 }
 
 h4 {
     font-size: 1rem;
     font-weight: 600;
-    color: rgb(226 232 240/1);
+    color: var(--title-font-color);
 }
