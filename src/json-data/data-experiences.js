@@ -25,7 +25,7 @@ export default [
         dateYears: "2017/2022",
         title: "Online Manager · E-Commerce",
         company: "Rebellencub.com",
-        description: "During my time at this retail startup stepping into the e-commerce world, I took a big role takeing care of all these online aspects were taken care of accordingly to the needs of it's growth. Quickly switching to provide solutions for the business and maybe even more important, the customer's needs.",
+        description: "During my time at this retail startup stepping into the e-commerce world, I took a big role taking care of all these online aspects were taken care of accordingly to the needs of it's growth. Quickly switching to provide solutions for the business and maybe even more important, the customer's needs.",
         tags: "Shopify, Liquid, HTML, CSS, JavaScript, Channable, Klaviyo, Affinity, API's",
         hrefLink: "https://www.rebellenclub.com"
     },

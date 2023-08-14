@@ -10,7 +10,7 @@ export default function ExperienceBlock(props) {
 
     return (
         <>
-            <a className="experience-block--item-wrapper" href={props.experience.hrefLink}>
+            <a className="experience-block--item-wrapper" href={props.experience.hrefLink} target="_blank">
             <li className="experience-block--item">
 
                 {
